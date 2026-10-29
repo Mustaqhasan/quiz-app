@@ -370,8 +370,8 @@ document.addEventListener("DOMContentLoaded", function () {
             document
               .getElementById("home-button")
               .addEventListener("click", () => {
-                questionContainer.style.display = "flex";
-                quizContainer.style.display = "block";
+                questionContainer.style.display = "none";
+                quizContainer.style.display = "grid";
               });
           }
   }
